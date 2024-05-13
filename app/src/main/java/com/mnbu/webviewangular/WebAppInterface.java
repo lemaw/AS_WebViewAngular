@@ -10,12 +10,18 @@ import android.content.Context;
 import android.content.Intent;
 
 
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.os.Build;
 import android.provider.MediaStore;
 import android.webkit.JavascriptInterface;
 
 import androidx.annotation.RequiresApi;
 import androidx.core.app.NotificationCompat;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 
 
 public class WebAppInterface {
